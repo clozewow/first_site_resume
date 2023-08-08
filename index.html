@@ -6,28 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="valery, cv, resume">
     <meta name="description" content="Этот сайт- резюме Валерия Калинина">
-    <img src="img/img.jpg" alt="мое фото" width="200">
+   
     <title>Резюме Валерий</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Валерий Калинин</h1>
-    <p>Я учусь на бесплатной части курса <strong>Профессия Джуниор Frontend-разработчик</strong>
+    <div class="info">
+
+    <img src="img/img.jpg" alt="Валерий Калинин" width="200">
+
+    <div class="info-text">
+        <h1>Валерий Калинин</h1>
+
+        <p>Я учусь на курсе <strong>Профессия Джуниор Frontend-разработчик</strong>
         в <strong>Result School</strong></p>
-    <p>Я люблю <em>играть в видеоигры и программировать</em></p>
 
-    <h3><strong>Список социальных сетей:</strong></h3>
-    <a href="https://www.instagram.com/clozewow/" target="_blank">instagram</a>
+        <p>Я люблю <em>играть в видеоигры и программировать</em></p>
+
+
+    <h5>Список социальных сетей:</h5>
+    <a href="https://www.instagram.com/clozewow/" rel="noopener noreferrer" target="_blank">instagram</a>
     |
-    <a href="https://vk.com/clozewow" target="_blank">vk</a>
+    <a href="https://vk.com/clozewow" rel="noopener noreferrer" target="_blank">vk</a>
+</div>
+</div>
 
+<br><br>
+<section>
+<div class="card hobby">
     <h2>Мои хобби</h2>
     <ul>
         <li>Путешествия</li>
         <li>Компьютерные игры</li>
         <li>Программирование</li>
     </ul>
+</div>
+<br>
 
+<div class="card experience">
     <h2>Опыт работы</h2>
     <table>
         <thead>
@@ -57,6 +74,18 @@
 
         </tbody>
     </table>
+</div>
+
+<div class="card courses">
+    <h2>Мои курсы</h2>
+    <ul>
+        <li><a href="https://result.school/products/junior-js" rel="noopener noreferrer" target="blank">Получение профессии Frontend разработчика</a></li>
+        <li><a href="https://result.school/products" rel="noopener noreferrer" target="blank">Все курсы</a></li>
+    </ul>
+</div>
+</section>
+    <br>
+<footer>
     <h2>Связаться со мной</h2>
     <form>
         <div>
@@ -75,7 +104,7 @@
         <input type="submit" value="Отправить!"></input>
 
     </form>
-
+</footer>
 </body>
 
 </html>

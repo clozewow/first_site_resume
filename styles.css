@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background-color: #F0FFFF;
+    line-height: 22px;
+    color: #0f141e;
+}
+
+.info-text p {
+    font-weight: bold;
+    font-style: italic;
+    color: #808080;
+}
+
+.hobby {
+    border: 2px solid #F0FFFF;
+    background-color: #FFE4C4;
+    border-radius: 5px;
+}
+
+.experience {
+    border: 2px solid #F0FFFF;
+    background-color: #6495ED;
+    border-radius: 5px;
+}
+
+.courses {
+    border: 2px solid #F0FFFF;
+    background-color: #E9967A;
+    border-radius: 5px;
+}
