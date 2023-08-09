@@ -58,3 +58,33 @@ body {
 .courses {
     background-color: #E9967A;
 }
+
+.btn {
+    background: black;
+    color:#fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue ;
+}
+
+a:visited {
+    color :grey;
+}
